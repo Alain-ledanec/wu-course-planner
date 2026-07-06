@@ -1,0 +1,1583 @@
+[
+  {
+    "course_id": "0910",
+    "course_title": "0910 Advanced Econometric Models and Methods (Science Track)",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/0910",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/10/05",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/12",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/19",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/02",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/09",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/23",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/30",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/07",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/14",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/21",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      },
+      {
+        "day": "Monday",
+        "date": "2027/01/11",
+        "time": "10:00 AM - 12:00 PM",
+        "room": "D4.0.144"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1297",
+    "course_title": "1297 Advanced Methods and Tools in Supply Chain Analytics (AMT)",
+    "ects": 10,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1297",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "date": "2026/10/07",
+        "time": "01:30 PM - 05:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/14",
+        "time": "01:30 PM - 05:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "09:00 AM - 12:30 PM",
+        "room": "D4.0.127"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "01:00 PM - 04:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/23",
+        "time": "01:00 PM - 04:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "12:00 PM - 08:00 PM",
+        "room": "TC.5.18"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/11",
+        "time": "01:00 PM - 04:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/13",
+        "time": "09:00 AM - 12:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/18",
+        "time": "11:00 AM - 02:30 PM",
+        "room": "D2.0.382"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/02",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/11",
+        "time": "10:30 AM - 01:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/18",
+        "time": "12:30 PM - 03:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2027/01/15",
+        "time": "12:00 PM - 02:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2027/01/22",
+        "time": "01:00 PM - 04:30 PM",
+        "room": "D2.0.030"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1317",
+    "course_title": "1317 Advanced Topics in Finance",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1317",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/10/02",
+        "time": "02:00 PM - 05:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/09",
+        "time": "02:00 PM - 05:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "02:00 PM - 05:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/13",
+        "time": "02:00 PM - 05:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/20",
+        "time": "02:00 PM - 05:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/04",
+        "time": "02:00 PM - 05:30 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/11",
+        "time": "02:00 PM - 04:00 PM",
+        "room": "TC.2.03"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1315",
+    "course_title": "1315 Advanced Topics in IT Law",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1315",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/11/13",
+        "time": "01:00 PM - 05:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/20",
+        "time": "04:30 PM - 08:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/25",
+        "time": "04:30 PM - 08:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/16",
+        "time": "04:30 PM - 08:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2027/01/13",
+        "time": "04:30 PM - 08:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2027/01/29",
+        "time": "01:00 PM - 03:00 PM",
+        "room": "D2.0.038"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1320",
+    "course_title": "1320 Advanced Topics in Strategy: Transforming your Business with AI",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1320",
+    "schedules": [
+      {
+        "day": "Thursday",
+        "date": "2026/10/01",
+        "time": "02:00 PM - 06:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/08",
+        "time": "02:00 PM - 06:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "02:00 PM - 06:00 PM",
+        "room": "D4.0.136"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/22",
+        "time": "02:00 PM - 06:00 PM",
+        "room": "D4.0.136"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1480",
+    "course_title": "1480 Applied Innovation",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1480",
+    "schedules": [
+      {
+        "day": "Saturday",
+        "date": "2026/10/10",
+        "time": "10:00 AM - 02:00 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/29",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Saturday",
+        "date": "2026/10/31",
+        "time": "10:00 AM - 02:00 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "09:00 AM - 10:30 AM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Saturday",
+        "date": "2026/11/07",
+        "time": "10:00 AM - 02:00 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026/11/17",
+        "time": "03:00 PM - 06:00 PM",
+        "room": "D2.0.382"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "0805",
+    "course_title": "0805 Applied Socioeconomic Theories and Methods",
+    "ects": 10,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/0805",
+    "schedules": [
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/22",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/05",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/12",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/19",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/26",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/03",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/10",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D3.0.222"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/17",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2027/01/07",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2027/01/14",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      },
+      {
+        "day": "Thursday",
+        "date": "2027/01/21",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D4.0.019"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1710",
+    "course_title": "1710 Asset Protection - How to Make Your Money Untouchable!",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1710",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "08:00 AM - 05:30 PM",
+        "room": "TC.5.28"
+      },
+      {
+        "day": "Saturday",
+        "date": "2026/10/17",
+        "time": "08:00 AM - 05:30 PM",
+        "room": "TC.4.17"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/23",
+        "time": "08:30 AM - 12:00 PM",
+        "room": "TC.5.03"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "0705",
+    "course_title": "0705 B2B Marketing",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/0705",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "date": "2026/10/07",
+        "time": "01:00 PM - 03:00 PM",
+        "room": "D5.1.003"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "TC.3.10"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/21",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D1.1.074"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/28",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D1.1.074"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/04",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D1.1.074"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/18",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D3.0.222"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/25",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D1.1.074"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/03",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D2.0.392"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1368",
+    "course_title": "1368 BEPS (Base Erosion Profit Shifting) and other OECD and EU Initiatives against Aggressive Tax Planning",
+    "ects": 4,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1368",
+    "schedules": [
+      {
+        "day": "Thursday",
+        "date": "2026/10/08",
+        "time": "09:00 AM - 12:30 PM",
+        "room": "D3.2.243"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "09:00 AM - 12:30 PM",
+        "room": "D3.2.243"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/05",
+        "time": "12:00 PM - 03:30 PM",
+        "room": "TC.0.04"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/12",
+        "time": "12:00 PM - 03:30 PM",
+        "room": "TC.0.02"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/19",
+        "time": "12:00 PM - 03:30 PM",
+        "room": "TC.5.16"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/27",
+        "time": "09:00 AM - 12:30 PM",
+        "room": "D5.1.002"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/11",
+        "time": "12:30 PM - 02:00 PM",
+        "room": "TC.2.01"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1376",
+    "course_title": "1376 Blockchain and Distributed Ledger Technology I",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1376",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/10/05",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "02:00 PM - 05:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/23",
+        "time": "02:00 PM - 05:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/02",
+        "time": "01:30 PM - 06:00 PM",
+        "room": "TC.5.15"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/09",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/23",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "Online-Einheit"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1206",
+    "course_title": "1206 Business Automation with Power Automate & AI Builder",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1206",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "08:15 AM - 01:00 PM",
+        "room": "LC.2.064 (P&S)"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/11",
+        "time": "01:30 PM - 06:15 PM",
+        "room": "LC.2.064 (P&S)"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/20",
+        "time": "08:15 AM - 01:00 PM",
+        "room": "LC.2.064 (P&S)"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/27",
+        "time": "08:30 AM - 01:00 PM",
+        "room": "LC.2.064 (P&S)"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/14",
+        "time": "08:15 AM - 12:00 PM",
+        "room": "Online-Einheit"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "0083",
+    "course_title": "0083 Business Policy & Strategy",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/0083",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/10/05",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D5.1.002"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "06:00 PM - 09:00 PM",
+        "room": "D5.1.002"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/04",
+        "time": "08:00 AM - 10:00 PM",
+        "room": "Extern"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/11/05",
+        "time": "08:00 AM - 06:00 PM",
+        "room": "Extern"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1318",
+    "course_title": "1318 Business Process and Risk Management I",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1318",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/10/12",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/19",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/02",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "09:00 AM - 11:00 AM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/30",
+        "time": "09:00 AM - 11:00 AM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/14",
+        "time": "09:00 AM - 11:00 AM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Monday",
+        "date": "2027/01/18",
+        "time": "09:00 AM - 12:30 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Monday",
+        "date": "2027/01/25",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D2.0.038"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1194",
+    "course_title": "1194 Business Process Management",
+    "ects": 4,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1194",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/11/02",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/09",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/30",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/07",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/21",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Monday",
+        "date": "2027/01/11",
+        "time": "04:00 PM - 07:00 PM",
+        "room": "D5.0.001"
+      },
+      {
+        "day": "Friday",
+        "date": "2027/01/29",
+        "time": "08:00 AM - 10:00 AM",
+        "room": "D4.0.250"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1130",
+    "course_title": "1130 Business Project",
+    "ects": 15,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1130",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "date": "2026/10/07",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/14",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/21",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/28",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/04",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/11",
+        "time": "10:30 AM - 12:00 PM",
+        "room": "D4.0.133"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/11",
+        "time": "12:00 PM - 03:00 PM",
+        "room": "D4.0.136"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/18",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/25",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/02",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/09",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/16",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2027/01/13",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2027/01/20",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2027/01/27",
+        "time": "10:00 AM - 03:00 PM",
+        "room": "D5.1.004"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "2097",
+    "course_title": "2097 Business Tax Law",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/2097",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/10/02",
+        "time": "11:00 AM - 12:00 PM",
+        "room": "TC.0.10 Audimax"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "08:00 AM - 01:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/23",
+        "time": "08:00 AM - 01:00 PM",
+        "room": "TC.1.01 OeNB"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/30",
+        "time": "08:00 AM - 01:00 PM",
+        "room": "TC.1.02"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "08:00 AM - 01:00 PM",
+        "room": "TC.1.02"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "03:30 PM - 05:30 PM",
+        "room": "TC.0.10 Audimax"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "0068",
+    "course_title": "0068 Business Tax Law",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/0068",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/10/02",
+        "time": "11:00 AM - 12:00 PM",
+        "room": "TC.0.10 Audimax"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/05",
+        "time": "04:00 PM - 09:00 PM",
+        "room": "TC.0.02"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026/10/06",
+        "time": "02:30 PM - 05:00 PM",
+        "room": "TC.0.02"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/07",
+        "time": "03:00 PM - 05:30 PM",
+        "room": "TC.0.03 WIENER STÄDTISCHE"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/15",
+        "time": "08:00 AM - 01:00 PM",
+        "room": "TC.0.01"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/10/22",
+        "time": "08:00 AM - 01:00 PM",
+        "room": "TC.0.01"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "03:30 PM - 05:30 PM",
+        "room": "TC.0.10 Audimax"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1364",
+    "course_title": "1364 Charity Marketing and Donor Management",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1364",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/10/05",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/12",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/19",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/02",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/09",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/23",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/30",
+        "time": "02:30 PM - 05:30 PM",
+        "room": "D2.0.392"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "0888",
+    "course_title": "0888 Cross-Border Corporate Deals",
+    "ects": 4,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/0888",
+    "schedules": [
+      {
+        "day": "Wednesday",
+        "date": "2026/10/14",
+        "time": "01:30 PM - 04:00 PM",
+        "room": "Extern"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/21",
+        "time": "01:30 PM - 04:00 PM",
+        "room": "Extern"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/10/28",
+        "time": "01:30 PM - 04:00 PM",
+        "room": "Extern"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/04",
+        "time": "01:30 PM - 04:00 PM",
+        "room": "Extern"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/11",
+        "time": "01:30 PM - 04:00 PM",
+        "room": "Extern"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/18",
+        "time": "12:30 PM - 03:00 PM",
+        "room": "D5.0.002"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/11/25",
+        "time": "12:30 PM - 03:00 PM",
+        "room": "D5.0.002"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/02",
+        "time": "12:30 PM - 03:00 PM",
+        "room": "D5.0.002"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/09",
+        "time": "12:30 PM - 03:00 PM",
+        "room": "D5.0.002"
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026/12/16",
+        "time": "12:30 PM - 03:00 PM",
+        "room": "D5.0.002"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1441",
+    "course_title": "1441 CSR and Sustainability",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1441",
+    "schedules": [
+      {
+        "day": "Monday",
+        "date": "2026/10/05",
+        "time": "10:00 AM - 02:00 PM",
+        "room": "TC.4.04"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/12",
+        "time": "10:00 AM - 01:30 PM",
+        "room": "TC.4.04"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/10/19",
+        "time": "10:00 AM - 01:30 PM",
+        "room": "TC.4.04"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/02",
+        "time": "10:00 AM - 01:30 PM",
+        "room": "TC.4.04"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/09",
+        "time": "10:00 AM - 01:30 PM",
+        "room": "TC.4.04"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/11/16",
+        "time": "10:00 AM - 02:30 PM",
+        "room": "TC.4.04"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1229",
+    "course_title": "1229 Customer Experience Management",
+    "ects": 5,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1229",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "12:00 PM - 01:00 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026/11/10",
+        "time": "01:00 PM - 02:30 PM",
+        "room": "D1.1.078"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026/11/17",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D2.0.392"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026/11/24",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D2.0.382"
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026/12/01",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D2.0.038"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/10",
+        "time": "01:00 PM - 04:00 PM",
+        "room": "D4.0.019"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "2458",
+    "course_title": "2458 Data Management A",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/2458",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/10/02",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D5.1.001"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/09",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "D5.1.001"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "D5.1.001"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/23",
+        "time": "02:00 PM - 05:00 PM",
+        "room": "TC.5.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/13",
+        "time": "02:00 PM - 05:00 PM",
+        "room": "TC.5.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/27",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D5.1.001"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/04",
+        "time": "09:00 AM - 12:00 PM",
+        "room": "D5.1.001"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/07",
+        "time": "01:30 PM - 03:00 PM",
+        "room": "TC.0.10 Audimax"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/11",
+        "time": "11:00 AM - 01:00 PM",
+        "room": "TC.0.10 Audimax"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/17",
+        "time": "09:00 AM - 06:00 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/18",
+        "time": "01:00 PM - 06:30 PM",
+        "room": "Online-Einheit"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "2463",
+    "course_title": "2463 Data Management B",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/2463",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/10/02",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/09",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/16",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/10/30",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/06",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/11/27",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/04",
+        "time": "10:00 AM - 01:00 PM",
+        "room": "TC.3.05"
+      },
+      {
+        "day": "Monday",
+        "date": "2026/12/07",
+        "time": "01:30 PM - 03:00 PM",
+        "room": "TC.0.10 Audimax"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/11",
+        "time": "11:00 AM - 01:00 PM",
+        "room": "TC.0.10 Audimax"
+      },
+      {
+        "day": "Thursday",
+        "date": "2026/12/17",
+        "time": "09:00 AM - 06:00 PM",
+        "room": "Online-Einheit"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/18",
+        "time": "01:00 PM - 06:30 PM",
+        "room": "Online-Einheit"
+      }
+    ],
+    "notes": {
+      "teacher_rating": "",
+      "teacher_name": "",
+      "difficulty": "",
+      "grading": "",
+      "workload": "",
+      "personal_notes": "",
+      "recommend": ""
+    }
+  },
+  {
+    "course_id": "1319",
+    "course_title": "1319 Data Science and Artificial Intelligence I - Group A",
+    "ects": 6,
+    "url": "https://learn.wu.ac.at/vvz-old/26w/1319",
+    "schedules": [
+      {
+        "day": "Friday",
+        "date": "2026/11/20",
+        "time": "09:00 AM - 01:00 PM",
+        "room": "D2.0.030"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/11",
+        "time": "08:00 AM - 11:00 AM",
+        "room": "TC.4.04"
+      },
+      {
+        "day": "Friday",
+        "date": "2026/12/18",
+        "time": "09:00 AM - 01:00 PM",
