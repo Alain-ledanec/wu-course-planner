@@ -618,11 +618,10 @@ function exportExcel() {
         return;
     }
 
-    // 学期起止日期（固定）
-    const SEMESTER_START = new Date(2026, 8, 28); // 2026-09-28
-    const SEMESTER_END = new Date(2027, 0, 31);   // 2027-01-31
+    const SEMESTER_START = new Date(2026, 8, 28);
+    const SEMESTER_END = new Date(2027, 0, 31);
 
-    // 获取所有已选课程的排课数据（扁平化）
+    // 收集所有已选课程的排课（扁平化，并过滤学期内）
     let allSchedules = [];
     selectedIds.forEach(id => {
         const c = courseData.find(c => c.course_id === id);
@@ -647,15 +646,10 @@ function exportExcel() {
         });
     });
 
-    if (allSchedules.length === 0) {
-        showToast('❌ 所选课程无有效排课数据');
-        return;
-    }
-
     // 按日期排序
     allSchedules.sort((a, b) => a.dateObj - b.dateObj);
 
-    // 分组：按周（周一~周日）
+    // 生成所有周（从学期开始到结束，每周一）
     function getWeekStart(date) {
         const d = new Date(date);
         const day = d.getDay();
@@ -665,18 +659,12 @@ function exportExcel() {
         return d;
     }
 
-    const weeksMap = new Map();
-    allSchedules.forEach(item => {
-        const weekStart = getWeekStart(item.dateObj);
-        const key = weekStart.toISOString().slice(0,10);
-        if (!weeksMap.has(key)) {
-            weeksMap.set(key, { weekStart: new Date(weekStart), items: [] });
-        }
-        weeksMap.get(key).items.push(item);
-    });
-
-    // 按周排序
-    const sortedWeeks = Array.from(weeksMap.values()).sort((a, b) => a.weekStart - b.weekStart);
+    let weeks = [];
+    let current = new Date(SEMESTER_START);
+    while (current <= SEMESTER_END) {
+        weeks.push(new Date(current));
+        current.setDate(current.getDate() + 7);
+    }
 
     // 时间轴：8:00 ~ 22:00，步长30分钟
     const TIME_SLOTS = [];
@@ -684,38 +672,27 @@ function exportExcel() {
         for (let m = 0; m < 60; m += 30) {
             const totalMin = h * 60 + m;
             if (totalMin >= 22 * 60) break;
-            const hour = String(h).padStart(2,'0');
-            const min = String(m).padStart(2,'0');
-            TIME_SLOTS.push({
-                label: `${hour}:${min}`,
-                startMin: totalMin
-            });
+            TIME_SLOTS.push({ label: `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}`, startMin: totalMin });
         }
     }
-    // 添加结束时间 22:00
     TIME_SLOTS.push({ label: '22:00', startMin: 22 * 60 });
 
-    // 辅助：根据分钟数找到对应的行索引（从0开始）
     function getRowIndex(minute) {
         for (let i = 0; i < TIME_SLOTS.length - 1; i++) {
-            const start = TIME_SLOTS[i].startMin;
-            const end = TIME_SLOTS[i+1].startMin;
-            if (minute >= start && minute < end) return i;
+            if (minute >= TIME_SLOTS[i].startMin && minute < TIME_SLOTS[i+1].startMin) return i;
         }
-        return TIME_SLOTS.length - 2; // 最后一个
+        return TIME_SLOTS.length - 2;
     }
 
-    // 计算持续时间占的行数（单位：30分钟）
     function getRowSpan(startMin, endMin) {
         const startRow = getRowIndex(startMin);
         const endRow = getRowIndex(endMin);
         return Math.max(1, endRow - startRow + 1);
     }
 
-    // ---- 生成 HTML ----
     const DAYS_SHORT = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'];
 
-    let html = `<html><head><meta charset="UTF-8"><title>WU课表</title>
+    let html = `<html><head><meta charset="UTF-8"><title>WU课表（完整学期）</title>
     <style>
         body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; }
         .week-title { font-weight: bold; font-size: 16px; margin: 20px 0 5px 0; background: #e9ecef; padding: 6px; }
@@ -727,20 +704,18 @@ function exportExcel() {
         .course-cell.conflict { background: #f8d7da; }
         .empty-cell { background: #fff; }
         .room-info { font-size: 9px; color: #666; display: block; }
+        .no-course { color: #ccc; font-style: italic; }
     </style>
     </head><body>`;
 
-    // 遍历每一周
-    sortedWeeks.forEach((weekData, idx) => {
-        const weekStart = weekData.weekStart;
+    weeks.forEach((weekStart, weekIdx) => {
         const weekEnd = new Date(weekStart);
         weekEnd.setDate(weekEnd.getDate() + 6);
         const weekLabel = `${weekStart.getFullYear()}年${weekStart.getMonth()+1}月${weekStart.getDate()}日 - ${weekEnd.getFullYear()}年${weekEnd.getMonth()+1}月${weekEnd.getDate()}日`;
-
-        html += `<div class="week-title">第${idx+1}周：${weekLabel}</div>`;
+        html += `<div class="week-title">第${weekIdx+1}周：${weekLabel}</div>`;
         html += `<table>`;
 
-        // 表头：时间列 + 7天
+        // 表头
         html += `<tr><th class="time-label">时间</th>`;
         for (let d = 0; d < 7; d++) {
             const dayDate = new Date(weekStart);
@@ -751,37 +726,28 @@ function exportExcel() {
         }
         html += `</tr>`;
 
-        // 初始化表格数据：行×列，每格存放课程列表（可能有多个）
-        const rows = TIME_SLOTS.length - 1; // 实际行数（因为最后一个只做结束标记）
+        // 构建 grid: rows × cols (7列)
+        const rows = TIME_SLOTS.length - 1;
         const cols = 7;
         const grid = Array.from({ length: rows }, () => Array.from({ length: cols }, () => []));
 
-        // 填充课程到对应的格子
-        weekData.items.forEach(item => {
-            const dayIndex = item.dateObj.getDay(); // 0=周日, 1=周一...
+        // 填充该周的课程
+        allSchedules.forEach(item => {
+            if (item.dateObj < weekStart || item.dateObj > weekEnd) return;
+            const dayIndex = item.dateObj.getDay();
             let col = dayIndex - 1;
-            if (col < 0) col = 6; // 周日归到第6列
-
+            if (col < 0) col = 6;
             const startRow = getRowIndex(item.startMin);
             const endRow = getRowIndex(item.endMin);
-            // 如果结束时间正好在某个格子的起始，需要减1
-            const realEndRow = (item.endMin % 30 === 0) ? endRow - 1 : endRow;
-            const rowSpan = Math.max(1, realEndRow - startRow + 1);
-
-            // 检查该位置是否已有课程（冲突），如果有，合并显示
-            const existing = grid[startRow][col];
+            const rowSpan = Math.max(1, endRow - startRow + 1);
             const cellText = `${item.courseId} ${item.courseTitle}`;
             const roomText = item.room ? ` (${item.room})` : '';
-            const entry = {
-                text: cellText,
-                room: roomText,
-                rowSpan: rowSpan,
-                conflict: existing.length > 0 // 如果有之前已占用，标记冲突
-            };
-            // 如果冲突，与已有课程合并显示（但合并显示较复杂，我们只覆盖，但标记冲突）
-            // 简单处理：如果有冲突，当前课程会覆盖，但我们会显示冲突标记
+            const entry = { text: cellText, room: roomText, rowSpan: rowSpan };
             grid[startRow][col].push(entry);
         });
+
+        // 用于标记被占用的格子 (row, col)
+        const occupied = Array.from({ length: rows }, () => Array(cols).fill(false));
 
         // 生成表格行
         for (let r = 0; r < rows; r++) {
@@ -789,83 +755,49 @@ function exportExcel() {
             html += `<tr>`;
             html += `<td class="time-label">${timeLabel}</td>`;
             for (let c = 0; c < cols; c++) {
+                if (occupied[r][c]) {
+                    // 该格被之前行的rowspan占用，输出空
+                    html += `<td class="empty-cell"></td>`;
+                    continue;
+                }
                 const cellData = grid[r][c];
                 if (cellData.length === 0) {
                     html += `<td class="empty-cell"></td>`;
                 } else {
-                    // 取第一个（我们只显示第一个，如果多个则用逗号分隔，并标记冲突）
-                    const entries = cellData;
-                    let content = entries.map(e => e.text).join('<br>');
-                    let room = entries.map(e => e.room).join('<br>');
-                    let conflict = entries.some(e => e.conflict);
-                    // 但我们需要rowspan，但多个条目可能rowspan不同，这里简化：只取第一个的rowspan
-                    // 更好的方式：因为同一个格子不可能同时有多个不同rowspan的课程（如果有冲突，我们会合并）
-                    // 我们只考虑第一个
-                    const first = entries[0];
-                    const rowSpan = first.rowSpan;
-                    // 如果rowSpan > 1，需要跳过后续行，但我们的grid是二维，为了不重复输出，我们判断当前是否应该显示
-                    // 因为我们的grid已经按行存放，如果我们已经在之前的行输出了rowspan，那么后续行应该跳过
-                    // 但因为我们是在遍历时动态处理，我们需要一个标记来跳过
-                    // 由于我们无法简单标记，我们换个方式：在生成时，如果某行有rowspan，那么在该行输出，并记录已占用的行
-                    // 更稳健的方法：先构建一个occupied标记
-                    // 这里为了简洁，我们使用一个简单的逻辑：如果当前格子已经有内容，并且它是从上面rowspan下来的，我们在之前已经输出过了，所以应该跳过。
-                    // 但因为我们无法知道，所以我们采用另一种策略：在填充grid时，我们把该格子标记为occupied，并记录rowspan，然后生成时只输出第一个出现的格子。
-                    // 为了简化，我们在生成表格时检查是否已经被占用（即从前面行rowspan下来），但我们没有记录。
-                    // 重新设计：在填充时，我们只把内容放入起始行，并记录rowspan，同时将后续行标记为"skip"
-                    // 但这样要额外数据结构。
-                    // 我们简单点：每个格子只输出一条，如果有多条冲突，就合并显示在同一格（不加rowspan，只用换行）
-                    // 这样更简单，但失去了时间跨度的展示。
-                    // 为了更接近日历，我们还是需要rowspan。所以我们重构：只考虑第一个课程，忽略后续冲突（但会显示冲突标记）
-                    // 实际用户不会选太多冲突，所以可用。
-                    // 我们取第一个作为主要显示，如果有多个，添加冲突标记。
+                    // 取第一个课程（若多个冲突，合并显示）
+                    const first = cellData[0];
                     let displayText = first.text;
                     let roomText = first.room;
-                    let conflictFlag = entries.length > 1;
+                    let conflictFlag = cellData.length > 1;
                     if (conflictFlag) {
                         displayText += ' ⚠️冲突';
                     }
-                    const rowspan = first.rowSpan;
-                    // 但我们只在此行输出，后续行需要跳过，所以我们需要记录哪些格子被占用了。
-                    // 更好的办法：使用一个occupied二维数组，在输出前标记被占用的格子。
-                    // 这里我们采用简便方法：在生成时，如果该格子已被标记为occupied，则输出空。
-                    // 因此我们引入一个occupied数组。
-                    if (!window._occupied) window._occupied = [];
-                    if (!window._occupied[r]) window._occupied[r] = [];
-                    if (window._occupied[r][c]) {
-                        // 已被占，跳过
-                        html += `<td class="empty-cell"></td>`;
-                    } else {
-                        // 输出并标记占用的行
-                        html += `<td class="course-cell ${conflictFlag ? 'conflict' : ''}" rowspan="${rowspan}">${displayText}<span class="room-info">${roomText}</span></td>`;
-                        // 标记后续行
-                        for (let i = 1; i < rowspan; i++) {
-                            if (!window._occupied[r+i]) window._occupied[r+i] = [];
-                            window._occupied[r+i][c] = true;
-                        }
+                    const rowSpan = first.rowSpan;
+                    // 标记后续行该列被占用
+                    for (let i = 1; i < rowSpan && r+i < rows; i++) {
+                        occupied[r+i][c] = true;
                     }
+                    html += `<td class="course-cell ${conflictFlag ? 'conflict' : ''}" rowspan="${rowSpan}">${displayText}<span class="room-info">${roomText}</span></td>`;
                 }
             }
             html += `</tr>`;
         }
 
         html += `</table>`;
-        // 重置occupied标记
-        window._occupied = [];
     });
 
     html += `</body></html>`;
 
-    // 导出为 .xls
     const blob = new Blob([html], { type: 'application/vnd.ms-excel' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `课表_日历视图_${new Date().toISOString().slice(0,10)}.xls`;
+    a.download = `课表_完整学期_${new Date().toISOString().slice(0,10)}.xls`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
-    showToast('✅ 课表（日历视图）导出成功');
+    showToast('✅ 完整学期课表导出成功');
 }
         
         // ================================================================
